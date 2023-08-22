@@ -9,9 +9,9 @@ const Possibility = () => {
       </figure>
       <article className='gpt3__possibility-content'>
         <span>Request Early Access to Get Started</span>
-        <p className='gpt3__possibility-content__title gradient__text'>The possibilities are beyond your imagination</p>
+        <h2 className='gpt3__possibility-content__title gradient__text'>The possibilities are beyond your imagination</h2>
         <p className='gpt3__possibility-content__text'>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
-        <span>Request Early Access to Get Started</span>
+        <span>Request Early Acce  ss to Get Started</span>
       </article>
     </section>
   )

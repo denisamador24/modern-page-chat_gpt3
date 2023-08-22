@@ -4,7 +4,7 @@ import './footer.css'
 const Footer = () => {
   return (
     <footer className='gpt3__footer section__padding'>
-      <p className='gpt3__footer-title gradient__text'>Do you want to step in to the future before others</p>
+      <h2 className='gpt3__footer-title gradient__text'>Do you want to step in to the future before others</h2>
       <div className='gpt3__footer-button'>
         <button>Request Early Access</button>
       </div>

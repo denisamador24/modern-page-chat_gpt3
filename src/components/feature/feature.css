@@ -22,7 +22,7 @@
   margin-bottom: 0.25rem;
 }
 
-.gpt3__features-container__feature-title h3 {
+.gpt3__features-container__feature-title p {
   font-family: var(--font-family);
   font-weight: 800;
   font-size: 18px;
