@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './navbar.css'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 import logo from '../../assets/logo.svg'
@@ -27,26 +27,26 @@ const Navbar = () => {
         </ul>
       </div>
       <div className='gpt3__navbar-sing'>
-          <button className='secondary-button'>Sign in</button>
-          <button className='primary-button'>Sign up</button>
-      </div> 
+        <button className='secondary-button'>Sign in</button>
+        <button className='primary-button'>Sign up</button>
+      </div>
       <menu className='gpt3__navbar-menu'>
-          {toggleMenu
-            ? <RiCloseLine color='#fff' size={27} onClick={() => setToggleMenu(false)} />
-            : <RiMenu3Line color='#fff' size={27} onClick={() => setToggleMenu(true)} />
-          }
-          {toggleMenu && (
-            <div className='gpt3__navbar-menu_container scale-up-center'>
-              <ul className='gtp3__navbar-menu_container-links'>
-                <Menu />
-              </ul>
-              <div className='gpt3__navbar-menu_container-links-sing'>
-                <button className='secondary-button'>Sign in</button>
-                <button className='primary-button'>Sign up</button>
-              </div>
+        {toggleMenu
+          ? <RiCloseLine color='#fff' size={27} onClick={() => setToggleMenu(false)} />
+          : <RiMenu3Line color='#fff' size={27} onClick={() => setToggleMenu(true)} />
+        }
+        {toggleMenu && (
+          <div className='gpt3__navbar-menu_container scale-up-center'>
+            <ul className='gtp3__navbar-menu_container-links'>
+              <Menu />
+            </ul>
+            <div className='gpt3__navbar-menu_container-links-sing'>
+              <button className='secondary-button'>Sign in</button>
+              <button className='primary-button'>Sign up</button>
             </div>
-          )}
-      </menu>  
+          </div>
+        )}
+      </menu>
     </nav>
   )
 }
