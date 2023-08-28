@@ -1,4 +1,4 @@
-import PossibilityImage from '../../assets/possibility.png';
+import PossibilityImage from '../../assets/r-possibility.png';
 import './possibility.css'
 
 const Possibility = () => {

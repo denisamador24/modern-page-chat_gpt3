@@ -1,9 +1,9 @@
 import { Article } from '../../components'
-import blog1Image from '../../assets/blog01.png';
-import blog2Image from '../../assets/blog02.png';
-import blog3Image from '../../assets/blog03.png';
-import blog4Image from '../../assets/blog04.png';
-import blog5Image from '../../assets/blog05.png';
+import blog1Image from '../../assets/r-blog01.png';
+import blog2Image from '../../assets/r-blog02.png';
+import blog3Image from '../../assets/r-blog03.png';
+import blog4Image from '../../assets/r-blog04.png';
+import blog5Image from '../../assets/r-blog05.png';
 import './blog.css'
 
 const Blog = () => {
